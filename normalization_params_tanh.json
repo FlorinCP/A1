@@ -1,0 +1,85 @@
+{
+    "params": {
+        "sq_mt_built": {
+            "min": 22.0,
+            "max": 730.0,
+            "target_min": -1.0,
+            "target_max": 1.0
+        },
+        "sq_mt_useful": {
+            "min": 2.0,
+            "max": 540.0,
+            "target_min": -1.0,
+            "target_max": 1.0
+        },
+        "n_rooms": {
+            "min": 0.0,
+            "max": 14.0,
+            "target_min": -1.0,
+            "target_max": 1.0
+        },
+        "n_bathrooms": {
+            "min": 1.0,
+            "max": 7.0,
+            "target_min": -1.0,
+            "target_max": 1.0
+        },
+        "floor": {
+            "min": 0.0,
+            "max": 9.0,
+            "target_min": -1.0,
+            "target_max": 1.0
+        },
+        "built_year": {
+            "min": 1850.0,
+            "max": 2021.0,
+            "target_min": -1.0,
+            "target_max": 1.0
+        },
+        "buy_price": {
+            "min": 36000.0,
+            "max": 6000000.0,
+            "target_min": -1.0,
+            "target_max": 1.0
+        }
+    },
+    "original_columns": [
+        "sq_mt_built",
+        "sq_mt_useful",
+        "n_rooms",
+        "n_bathrooms",
+        "floor",
+        "rent_price",
+        "buy_price",
+        "house_type_id",
+        "built_year",
+        "has_individual_heating",
+        "has_central_heating"
+    ],
+    "house_types": [
+        "HouseType 1: Pisos",
+        "HouseType 4: D\u00faplex",
+        NaN,
+        "HouseType 5: \u00c1ticos",
+        "HouseType 2: Casa o chalet"
+    ],
+    "numerical_columns": [
+        "sq_mt_built",
+        "sq_mt_useful",
+        "n_rooms",
+        "n_bathrooms",
+        "floor",
+        "built_year",
+        "buy_price"
+    ],
+    "dummy_columns": [
+        "house_type_HouseType 1: Pisos",
+        "house_type_HouseType 2: Casa o chalet",
+        "house_type_HouseType 4: D\u00faplex",
+        "house_type_HouseType 5: \u00c1ticos"
+    ],
+    "normalization_range": [
+        -1,
+        1
+    ]
+}
